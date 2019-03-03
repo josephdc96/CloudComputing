@@ -18,7 +18,6 @@
 
 const alexaVerifier = require('alexa-verifier');
 const AssistantV1 = require('watson-developer-cloud/assistant/v1');
-const redis = require('redis');
 const openwhisk = require('openwhisk');
 const request = require('request');
 const Url = require('url').Url;
